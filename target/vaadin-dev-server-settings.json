@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "D:/BOSS_WORKSPACE_DEVELOP/mosy-showcase-drink-ordering-service/./frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "D:/BOSS_WORKSPACE_DEVELOP/mosy-showcase-drink-ordering-service/./frontend/generated/jar-resources",
+  "staticOutput": "D:/BOSS_WORKSPACE_DEVELOP/mosy-showcase-drink-ordering-service/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "D:\\BOSS_WORKSPACE_DEVELOP\\mosy-showcase-drink-ordering-service\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "D:\\BOSS_WORKSPACE_DEVELOP\\mosy-showcase-drink-ordering-service\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "D:/BOSS_WORKSPACE_DEVELOP/mosy-showcase-drink-ordering-service/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "D:/BOSS_WORKSPACE_DEVELOP/mosy-showcase-drink-ordering-service/src/main/dev-bundle/config",
+  "jarResourcesFolder": "D:/BOSS_WORKSPACE_DEVELOP/mosy-showcase-drink-ordering-service/./frontend/generated/jar-resources",
+  "themeName": "",
+  "clientServiceWorkerSource": "D:\\BOSS_WORKSPACE_DEVELOP\\mosy-showcase-drink-ordering-service\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
