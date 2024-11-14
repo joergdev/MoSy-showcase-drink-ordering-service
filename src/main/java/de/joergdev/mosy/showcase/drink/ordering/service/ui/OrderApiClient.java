@@ -18,6 +18,9 @@ public class OrderApiClient
   @Value("${api.url.mock}")
   private String apiUrlMock;
 
+  @Value("${api.mock.tenantId}")
+  private String tenantId;
+
   private boolean mockEnabled;
   private Integer recordSessionId;
 
@@ -33,6 +36,11 @@ public class OrderApiClient
     if (mockEnabled && recordSessionId != null)
     {
       request = request.header(APIConstants.HTTP_HEADER_RECORD_SESSION_ID, String.valueOf(recordSessionId));
+
+      if (tenantId != null && !tenantId.trim().isEmpty())
+      {
+        request = request.header(APIConstants.HTTP_HEADER_TENANT_ID, tenantId.trim());
+      }
     }
 
     return request.retrieve().bodyToFlux(DrinkOrder.class).collectList().block();
