@@ -37,7 +37,7 @@
  			</li>
  		</ul>
  	</li>
- 	<li>Show API result for get-all-orders routed from MoSy to showcase app: <a href="http://localhost:3911/mosy/api/v_4_0/mock-services/rest/api/orders">http://localhost:3911/mosy/api/v_4_0/mock-services/rest/api/orders</a></li>
+ 	<li>Show API result for get-all-orders routed from MoSy to showcase app: <a href="http://localhost:3911/mosy/api/v_5_0/mock-services/rest/api/orders">http://localhost:3911/mosy/api/v_5_0/mock-services/rest/api/orders</a></li>
  	<li>Create recordSession</li>
  </ul>
     
